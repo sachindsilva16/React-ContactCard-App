@@ -1,34 +1,40 @@
-body{
+@import url(//db.onlinewebfonts.com/c/5ab304ade0d4f62d027d12464ca69443?family=Apple+Color+Emoji);
+
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #dfe6e9;
+    /* background: #dfe6e9; */
+    /* background:linear-gradient(to right, #3494e6, #ec6ead); */
+    background: linear-gradient(to right, #ff00cc, #333399);
     text-align: center;
 }
 
 
 
-.top{
+.top {
     width: 476px;
     border-top-left-radius: 22px;
-    border-top-right-radius:22px;
-    background-color:#00cec9;
+    border-top-right-radius: 22px;
+    /* background-color:grey; */
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     height: 91px;
 }
 
 
-.card{
-  margin: 10px; 
+.card {
+    margin: 10px;
 }
 
-.cardbox{
+.cardbox {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
 }
 
-.cardbox h1{
+.cardbox h1 {
     position: relative;
     left: 32px;
     top: 32px;
@@ -37,34 +43,35 @@ body{
 }
 
 
-.bottom{
+.bottom {
     width: 476px;
-    border-bottom-left-radius:22px;
-    border-bottom-right-radius:22px;
-    background-color:#81ecec;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    /* background-color:#81ecec; */
+    background-image: linear-gradient(to right, #4568dc, #b06ab3); 
     height: 200px;
     margin-top: 0;
 }
 
-.bottom p{
+.bottom p {
     margin: 0;
-    
+
 }
 
-.contact{
+.contact {
     position: relative;
-    right: 141px;
+    right: 92px;
     top: 50px;
 }
 
-.mail{
+.mail {
     position: relative;
     left: 37px;
     top: 82px;
     text-align: left;
 }
 
-.white-circle-bg{
+.white-circle-bg {
     border-radius: 50%;
     position: relative;
     left: 289px;
@@ -77,13 +84,14 @@ body{
     align-items: center;
 }
 
-.circle-img{
+.circle-img {
     border-radius: 50%;
     left: 20px;
     width: 147px;
     height: 147px;
 }
 
-.text{
-    color: grey;
+.text {
+    color: black;
+    font-family: "Apple Color Emoji";
 }
