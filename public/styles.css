@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #dfe6e9;
+    text-align: center;
+}
+
+
+
+.top{
+    width: 476px;
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px;
+    background-color:#00cec9;
+    height: 91px;
+}
+
+
+.card{
+  margin: 10px; 
+}
+
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.cardbox h1{
+    position: relative;
+    left: 32px;
+    top: 32px;
+    font-size: 36px;
+    text-align: left;
+}
+
+
+.bottom{
+    width: 476px;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    background-color:#81ecec;
+    height: 200px;
+    margin-top: 0;
+}
+
+.bottom p{
+    margin: 0;
+    
+}
+
+.contact{
+    position: relative;
+    right: 141px;
+    top: 50px;
+}
+
+.mail{
+    position: relative;
+    left: 37px;
+    top: 82px;
+    text-align: left;
+}
+
+.white-circle-bg{
+    border-radius: 50%;
+    position: relative;
+    left: 289px;
+    width: 162px;
+    height: 162px;
+    background-color: white;
+    bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-img{
+    border-radius: 50%;
+    left: 20px;
+    width: 147px;
+    height: 147px;
+}
+
+.text{
+    color: grey;
+}
