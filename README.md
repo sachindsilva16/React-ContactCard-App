@@ -1,9 +1,7 @@
 # Getting Started with Create React App
 
 
-![This is ContactApp-Image1]()
-![This is ContactApp-Image1]()
-
+![This is ContactApp-Image1](https://github.com/sachindsilva16/React-ContactApp/blob/main/ScreenShot/screenshot1.png)![This is ContactApp-Image1](https://github.com/sachindsilva16/React-ContactApp/blob/main/ScreenShot/screenshot2.png)
 
 
 
@@ -14,12 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
